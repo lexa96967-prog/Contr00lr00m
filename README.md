@@ -125,5 +125,4 @@ title.InputBegan:Connect(function(input)
 end)
 
 UserInputService.InputChanged:Connect(function(input)
-    if dragging then updateDrag(input) end
-end)
+
